@@ -34,20 +34,25 @@
 	float: left;
 }
 
+.navbar-brand{
+	padding: 8px 5px;
+}
+
 .navbar-brand img{
- width: 65px;
- margin-left: 20px;
+	width: 100px;
+	margin-left: 20px;
 }
 
 .navbar-default{
 	margin: 0px;
-	background-color: orange;
-    border-color: black;
+	background-color: #2bb599;
+    border-color: #2bb599;
 	border: 1px 1px 30px 1px;
 	font-family:"ContrailOne-Regular";
 	position: fixed;
 	z-index: 10;
 	width: 100%;
+	border-radius: 0px;
 }
 
 .navbar-default .navbar-nav > li:hover > a {
@@ -61,7 +66,7 @@
 
 
 .navbar-default .navbar-toggle {
-  border-color: #000;
+  border-color: #2bb599;
 }
 
 .navbar-toggle {
@@ -70,11 +75,11 @@ margin-left: 20px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #000000;
+  border-color: #2bb599;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #4BE5BC;
+  background-color: #2bb599;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -95,7 +100,7 @@ margin-left: 20px;
 
 /*--------------------------------------------*/
 .rowtop{
-  margin-top: 178px;
+  margin-top: 120px;
 }
 
 .texto-home{
@@ -109,18 +114,18 @@ margin-left: 20px;
 
 .melo{
   	font-size: 72px;
-  	color: #2BB599;
+  	color: #2bb599;
   	text-align: center;
-  	font-family: "Mohave-Bold";
+  	font-family: "ContrailOne-Regular";
   	margin: 0px;
   	font-weight: bold;
 }
 
 .desarrolladora-web{
 	font-size: 72px;
-  	color: #2BB599;
+  	color: #2bb599;
   	text-align: center;
-  	font-family: "Mohave-Bold";
+  	font-family: "ContrailOne-Regular";
   	margin: 0px;
   	font-weight: bold;
 }
@@ -135,10 +140,10 @@ section{
 	min-height: 100%;
 }
 .fondo-home{
-	background-image: url(../img/fondo.png);
+	background-image: url(../img/fondoh.png);
 	background-attachment: fixed;
 	width: 100%;
-	height: 637px;
+	height: 642px;
 }
 
 .icon-home{
@@ -158,7 +163,7 @@ section{
 .imagen-1 {
 	width: 100%;
 	height: 20em;
-	background-image: url(../img/web.png);
+	background-image: url(../img/interior.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	
@@ -167,7 +172,7 @@ section{
 .imagen-2 {
 	width: 100%;
 	height: 20em;
-	background-image: url(../img/publicitario.jpg);
+	background-image: url(../img/reformas.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	
@@ -176,7 +181,7 @@ section{
 .imagen-3 {
 	width: 100%;
 	height: 20em;
-	background-image: url(../img/ilustracion.jpg);
+	background-image: url(../img/tresde.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	
@@ -185,7 +190,7 @@ section{
 .imagen-4 {
 	width: 100%;
 	height: 20em;
-	background-image: url(../img/manager.png);
+	background-image: url(../img/staging.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	
@@ -197,38 +202,55 @@ section{
 	font-size: 18px;
 }
 
-.About{
+.nosotros{
+	background-color: #2bb599;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-nosotros{
+	text-align: center;
+	color: white;
+	font-family:"ContrailOne-Regular";
+}
+
+.title-nosotros h3{
+	font-size: 40px;
+}
+
+.sub-nosotros p{
+	padding: 10px 80px 0px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.servicios{
 	background-color: #EDEDED;
 	padding-top: 50px;
 }
 
-.title-about{
+.title-servicios{
 	text-align: center;
 	font-family:"ContrailOne-Regular";
 	color: #2bb599;
 }
 
-.title-about h3{
+.title-servicios h3{
 	font-size: 40px;
 }
 
-.descripcion1-grid-system p{
+.sub-servicios p{
 	padding: 10px 80px 0px;
 	text-align: center;
-	color: rgb(34, 30, 30);
+	color: #333535;
 	font-size: 15px;
-	
 }
 
 
-.descripcion2-grid-system p{
-	text-align: center;
-	color: white;
-	font-size: 16px;
-}
 
 
-.Works{
+.obras{
 	background-color: #2bb599;
     padding-top: 50px;
 }
@@ -245,14 +267,14 @@ section{
  }
  
 
-.title-work{
+.title-obras{
 	text-align: center;
 	color: white;
 	font-family:"ContrailOne-Regular";
 	
 }
 
-.title-work h3{
+.title-obras h3{
 	font-size: 40px;
 }
 
@@ -265,7 +287,7 @@ section{
 }
 
 .container-grid-system {
-	padding: 2% 5%;
+	padding: 6% 5%;
     margin: 0 auto;
 }
 
@@ -341,7 +363,7 @@ section{
 
 .section-padding{
 	background-color: #EDEDED;
-	padding-bottom: 80px;
+	padding-bottom: 30px;
 	padding-top: 30px;
 	margin: 0px;
 }
@@ -357,31 +379,14 @@ address {
   
 }
 
-#contact input, #contact textarea {
-  background: none repeat scroll 0 0 #F7F7F7;
-  border: none;
-  border-radius: 4px;
-  box-shadow: none;
-  height: auto;
-  margin: 0;
-  padding: 15px;
-  resize: none;
-}
 
-#contact .btn-submit {
-  background:#2bb599;
-  color: white;
-  border: #2bb599;
-  border-radius: 3px;
-  font-size: 17px;
-}
 
 .social-icons{
 	padding-bottom: 20px;
 }
 
 .footer{
-	background-color: #151313;
+	background-color: #2bb599;
 	padding: 10px 0px 0px;
 	text-align: center;
 	width: 100%;
@@ -401,7 +406,7 @@ address {
  .go-top{
   margin-right: 1%;
   float: right;
-  background: rgba(255,255,255,.5);
+  background: white;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -463,15 +468,15 @@ address {
 
 
 @media (max-width: $screen-phone){
-	.melo{
-		color: #333535;
-	}
-	.desarrolladora-web{
-		color: #333535;
-	}
 	.fondo-home{
-		background-image: url(../img/fondoresponsive.png);
+		background-image: url(../img/fondoh.png);
+		background-position: center;
+	}
 
+	.rowtop{
+		margin-top: 66px;
 	}
 	
 }
+
+
